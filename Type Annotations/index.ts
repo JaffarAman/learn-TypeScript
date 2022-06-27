@@ -52,8 +52,24 @@ personObj2 = {
   name: "Jaffar",
 };
 
+//function with optional parameter
+function sum1(a: number, b?: number) {
+  return b ? a + b : a;
+}
+sum1(20);
 
+// class javascript
 
+// class Car {
+//   name;
+//   model;
+//   constructor(name, model) {
+//     this.name = name;
+//     this.model = model;
+//   }
+// }
+// var Car1 = new Car("toyota", 201);
+// console.log(Car1);
 
 // The error "Cannot redeclare block-scoped variable"
 // occurs when we redeclare a variable in the same block
